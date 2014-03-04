@@ -9,11 +9,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
 
-group :development, :test
+group :development, :test do
 	gem 'sqlite3'
 end
 
-group :production
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
